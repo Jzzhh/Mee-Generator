@@ -1,3 +1,7 @@
+# Meme Generator
+
+Get the top 100 popular memes for the API and allow you to edit them (only add text to them but trying to add more functions).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
