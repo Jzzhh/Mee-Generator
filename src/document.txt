@@ -1,0 +1,11 @@
+问题1：react中img路径src不支持直接写图片路径，比如src='../images/img.png'
+解决方法1：import
+    import imgURL from '../images/img.png'
+解决方法2：require
+    <img src={require('../images/face.png')} />
+
+动态调整元素的CSS样式：
+    style={...}
+
+closure（闭包）：
+    把参数和函数一同当作回调传递，需要靠箭头函数或匿名函数？

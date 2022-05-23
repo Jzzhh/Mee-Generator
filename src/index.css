@@ -5,9 +5,116 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ebc9f7;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  padding: 20px;
+}
+
+#headImage {
+  height: 100%;
+  margin-right: 8px;
+}
+
+#title{
+  font-size: 20px;
+  margin-right: auto;
+}
+
+#author{
+  font-size: 12px;
+  font-weight: 500;
+}
+
+main {
+  margin: 30px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  grid-gap: 18px;
+}
+
+.form-input {
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.meme-button{
+  grid-column: 1 / 3;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.meme{
+  position: relative;
+}
+
+#meme-image {
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.meme-text {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      margin: 15px 0;
+      padding: 0 5px;
+      font-family: impact, sans-serif;
+      font-size: 1.5em;
+      text-transform: uppercase;
+      color: white;
+      letter-spacing: 1px;
+      text-shadow:
+          2px 2px 0 #000,
+          -2px -2px 0 #000,
+          2px -2px 0 #000,
+          -2px 2px 0 #000,
+          0 2px 0 #000,
+          2px 0 0 #000,
+          0 -2px 0 #000,
+          -2px 0 0 #000,
+          2px 2px 5px #000;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
